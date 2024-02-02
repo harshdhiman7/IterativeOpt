@@ -22,7 +22,7 @@ epochs = st.sidebar.slider('Epochs', min_value=100, max_value=1000, value=500)
 
 
 # Generate random data
-df=pd.read_csv("/Users/harshdhiman/Documents/Academics/codes/IterativeOpt/california_housing_train.csv")
+df=pd.read_csv("california_housing_train.csv")
 X=np.array(df["median_income"]).reshape(-1,1)
 y=np.array(df["median_house_value"]).reshape(-1,1)
 
