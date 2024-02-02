@@ -7,7 +7,8 @@ import matplotlib.pyplot as plt
 
 st.title('Gradient Descent Algorithm for Linear Regression')
 
-txt = st.write("The gradient descent algorithm for linear regression involves updating the parameters iteratively to minimize the" "cost function. The cost function for linear regression is often the mean squared error (MSE).")
+txt = st.write("The gradient descent algorithm for linear regression involves" 
+               "updating the parameters iteratively to minimize the" "cost function. The cost function for linear regression is often the mean squared error (MSE).")
 
 #st.header('The weight update happens as follows', divider='rainbow')
 #st.header('_Streamlit_ is :blue[cool] :sunglasses:')
