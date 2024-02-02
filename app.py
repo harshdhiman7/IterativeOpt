@@ -15,6 +15,8 @@ txt = st.write("The gradient descent algorithm for linear regression involves"
 
 st.latex(r'''\theta_j^{k+1} = \theta_j^k - \alpha \cdot \frac{\partial J}{\partial \theta_j^k}''')
 
+st.link_button("Click here for data description", "https://www.kaggle.com/datasets/camnugent/california-housing-prices")
+
 #st.divider()
 # Sidebar
 st.sidebar.header('Parameters')
